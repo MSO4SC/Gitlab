@@ -1,2 +1,2 @@
 # Gitlab
-Gitlab based code repository
+MSO4SC Gitlab based code repository
