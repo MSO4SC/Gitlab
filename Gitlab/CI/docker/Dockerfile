@@ -32,7 +32,7 @@ RUN apt-get -y update \
 # Singularity CLI \
 ################################################ \
     && cd /tmp \ 
-    && VERSION=2.4.2 \
+    && VERSION=2.4.4 \
     && wget https://github.com/singularityware/singularity/releases/download/$VERSION/singularity-$VERSION.tar.gz \
     && tar xvf singularity-$VERSION.tar.gz \
     && rm singularity-$VERSION.tar.gz \
