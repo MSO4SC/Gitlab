@@ -20,7 +20,7 @@ LABEL maintainer="javier.carnero@atos.net"
 # Common dependencies
 ################################################
 RUN apt-get -y update \    
-    && apt-get -y install wget gcc make git squashfs-tools \
+    && apt-get -y install wget curl gcc make git squashfs-tools \
 ################################################ \
 # Cloudify CLI \
 ################################################ \
