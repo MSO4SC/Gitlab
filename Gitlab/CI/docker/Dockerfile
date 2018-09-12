@@ -62,9 +62,4 @@ RUN apt-get -y update \
 
 ENV SREGISTRY_CLIENT registry
 
-
-
-
-
-
 CMD ["/bin/bash"]
